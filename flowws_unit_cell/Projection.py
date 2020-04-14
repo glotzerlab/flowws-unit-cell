@@ -131,6 +131,7 @@ class Projection(flowws.Stage):
         scope.pop('orientation', None)
         scope.pop('diameter', None)
         scope.setdefault('visuals', []).append(self)
+        scope.setdefault('visual_link_rotation', []).append(self)
 
     def draw_plato(self):
         min_length = min(*self.box[:3])

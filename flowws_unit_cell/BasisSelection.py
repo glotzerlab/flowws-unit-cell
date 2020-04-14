@@ -230,6 +230,7 @@ class BasisSelection(flowws.Stage):
         self.basis = scope['basis_vectors'] = basis
         scope.setdefault('visuals', []).append(self.direction_visual)
         scope['visuals'].append(self)
+        scope.setdefault('visual_link_rotation', []).append(self.direction_visual)
 
         self.gui_actions = [
             ('Select bonds', self._select_current_position),
