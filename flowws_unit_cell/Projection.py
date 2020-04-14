@@ -128,6 +128,8 @@ class Projection(flowws.Stage):
         scope['box'] = self.box = box
         scope['position'] = self.positions = cluster_centers
         scope['type'] = self.types = np.argmax(cluster_type_fractions, axis=-1)
+        scope.pop('orientation', None)
+        scope.pop('diameter', None)
         scope.setdefault('visuals', []).append(self)
 
     def draw_plato(self):
