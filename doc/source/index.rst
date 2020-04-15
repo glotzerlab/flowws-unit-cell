@@ -11,7 +11,10 @@ Usage
 The modules provided in this project are designed to be used as part
 of a live :std:doc:`flowws-analysis<flowws-analysis:index>` workflow,
 sandwiched between data sources and interactive backends and/or data
-sinks.
+sinks. Consult the :std:doc:`flowws<flowws:index>` documentation or
+the `flowws-examples
+project<https://github.com/klarh/flowws-examples>`_ for information on
+how to create and execute workflows.
 
 A suggested workflow:
 

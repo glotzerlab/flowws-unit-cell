@@ -11,14 +11,15 @@ cells. At a high level, this analysis proceeds in 4 steps:
 4. Detect the space group and center the system accordingly
 
 `flowws-unit-cell` implements this workflow interactively in the
-desktop or jupyter notebook using `flowws-analysis`.
+desktop or jupyter notebook as a set of modules using
+[flowws-analysis](https://flowws-analysis.readthedocs.io).
 
 ## Installation
 
 Install `flowws-unit-cell` from source:
 
 ```
-pip install git+https://github.com/klarh/flowws-unit-cell.git#egg=flowws-unit-cell
+pip install git+https://github.com/glotzerlab/flowws-unit-cell.git#egg=flowws-unit-cell
 ```
 
 ## API Documentation
@@ -28,7 +29,7 @@ Browse more detailed documentation
 documentation from source:
 
 ```
-git clone https://github.com/klarh/flowws-unit-cell
+git clone https://github.com/glotzerlab/flowws-unit-cell
 cd flowws-unit-cell/doc
 pip install -r requirements.txt
 make html

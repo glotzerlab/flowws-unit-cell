@@ -27,7 +27,7 @@ for name in module_names:
 
 setup(name='flowws-unit-cell',
       author='Matthew Spellings',
-      author_email='matthew.p.spellings@gmail.com',
+      author_email='mspells@umich.edu',
       classifiers=[
           'Development Status :: 3 - Alpha',
           'License :: OSI Approved :: BSD License',
@@ -41,7 +41,9 @@ setup(name='flowws-unit-cell',
       install_requires=[
           'flowws-analysis',
           'flowws-freud',
+          'freud-analysis',
           'plato-draw',
+          'rowan',
           'scikit-learn',
           'spglib',
       ],
