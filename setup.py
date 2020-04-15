@@ -39,6 +39,7 @@ setup(name='flowws-unit-cell',
       },
       extras_require={},
       install_requires=[
+          'flowws',
           'flowws-analysis',
           'flowws-freud',
           'freud-analysis',
