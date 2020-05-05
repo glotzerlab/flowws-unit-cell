@@ -16,7 +16,13 @@ desktop or jupyter notebook as a set of modules using
 
 ## Installation
 
-Install `flowws-unit-cell` from source:
+Install `flowws-unit-cell` from PyPI:
+
+```
+pip install flowws-unit-cell
+```
+
+Alternatively, install it from source:
 
 ```
 pip install git+https://github.com/glotzerlab/flowws-unit-cell.git#egg=flowws-unit-cell
